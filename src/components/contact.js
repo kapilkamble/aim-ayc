@@ -17,10 +17,21 @@ const Contact = () => {
                 Email 
                 <input type="email" name="email" id="email" />
             </label>
-            <label>
+            {/* <label>
                 Subject
                 <input type="text" name="subject" id="subject" />
-            </label>
+            </label> */}
+            <br/>
+            <label>
+                Need Type
+          <select>
+            <option value="VISA">VISA and related questions</option>
+            <option value="Job">Job and career related queries</option>
+            <option value="Property">Property and related queries</option>
+            <option value="Business">Financial/Business Opportunities</option>
+            <option value="Others">Social needs</option>
+          </select>
+        </label>            
             <label>
                 Message <br/>
                 <textarea name="message" id="message" rows="5" />
