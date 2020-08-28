@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `AIM - ask your Community`,
+    title: `AIM - Australia`,
     description: `Ambedkar International Mission - Help, Sustain your community`,
     author: `@gatsbyjs`,
     // Links to your social networks:
