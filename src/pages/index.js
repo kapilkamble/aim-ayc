@@ -7,9 +7,9 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Ambedkar International Mission - Ask Your Community" />
+    <SEO title="Ambedkar International Mission - Australia" />
     <h1>Jai Bhim</h1>
-    <p>Welcome to your community.</p>
+    <h2>Ask your community</h2>
     <p>How can we help you?</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Contact />

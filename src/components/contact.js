@@ -10,7 +10,7 @@ const Contact = () => {
 
             <label>
                 Name 
-                <input type="text" name="name" id="name" />
+                <input required="required" type="text" name="name" id="name" />
             </label>
             <br/>
             <label>
@@ -29,7 +29,8 @@ const Contact = () => {
             <option value="Job">Job and career related queries</option>
             <option value="Property">Property and related queries</option>
             <option value="Business">Financial/Business Opportunities</option>
-            <option value="Others">Social needs</option>
+            <option value="Social">Social needs</option>
+            <option value="Others">Other queries</option>
           </select>
         </label>            
             <label>
